@@ -1,0 +1,150 @@
+/* Tools section additions. Base layout comes from ../research/research.css. */
+.tool-section {
+  margin-block: 2rem;
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+}
+
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: rgb(255 255 255 / 4%);
+}
+
+.tool-card h3 {
+  margin: 0;
+}
+
+.tool-card p,
+.tool-card ul {
+  margin: 0;
+}
+
+.tool-card ul {
+  padding-left: 1.2rem;
+}
+
+.tool-examples {
+  padding: 0.8rem;
+  border-left: 3px solid var(--forest);
+  background: rgb(142 163 118 / 10%);
+}
+
+.tool-links {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: auto;
+}
+
+.tool-links a {
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  color: var(--accent-strong);
+  text-decoration: none;
+}
+
+.tool-links a:hover,
+.tool-links a:focus-visible {
+  border-color: var(--accent);
+  background: rgb(215 155 99 / 12%);
+}
+
+.tool-count {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.tool-anchor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.7rem;
+  padding: 0;
+  list-style: none;
+}
+
+.tool-anchor-list a {
+  display: block;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: rgb(255 255 255 / 4%);
+  text-decoration: none;
+}
+
+.checklist-page {
+  width: min(100%, 62rem);
+}
+
+.checklist-header {
+  padding: 1rem 0 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.checklist-header h1 {
+  max-width: 16ch;
+}
+
+.checklist-section {
+  margin-block: 1.5rem;
+  break-inside: avoid;
+}
+
+.checklist-section h2 {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.45rem 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.checklist label {
+  display: grid;
+  grid-template-columns: 1.2rem 1fr;
+  gap: 0.55rem;
+  align-items: start;
+}
+
+.checklist input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.22rem 0 0;
+}
+
+@media print {
+  .tool-card,
+  .tool-examples,
+  .tool-links a,
+  .tool-anchor-list a {
+    border-color: #888;
+    background: #fff;
+  }
+
+  .checklist-page {
+    width: auto;
+    padding: 0;
+  }
+
+  .checklist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .checklist-header {
+    padding-top: 0;
+  }
+}
