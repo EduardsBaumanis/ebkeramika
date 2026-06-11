@@ -220,6 +220,29 @@ p {
   color: var(--muted);
 }
 
+.article-checklist {
+  gap: 0.7rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.article-checklist li {
+  display: grid;
+  grid-template-columns: 1.2rem 1fr;
+  gap: 0.55rem;
+  align-items: start;
+}
+
+.article-checklist input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.22rem 0 0;
+}
+
+.article-list-content {
+  min-width: 0;
+}
+
 section {
   margin-block: 1.5rem;
 }
