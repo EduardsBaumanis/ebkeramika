@@ -21,6 +21,14 @@ Project-level guidance for AI agents working in this repository.
   - `tools/checklist.html` is a printable priority checklist.
   - `tools/tools.css` contains tool-specific styling.
 - `uni/` contains a personal three-year ceramics study model inspired by university ceramics curricula. It is not an official programme and should not claim to be one.
+- `video/` contains a video-lesson planning system for short ceramics how-to videos, adapted from the lesson template in the [ebskola](https://github.com/EduardsBaumanis/ebskola) project:
+  - `video/index.html` explains the template and lists the example topic.
+  - `video/sagatave.html` is the reusable blank template with `{placeholders}` for new video topics.
+  - `video/video.css` contains scene-card, quote, and video-meta styling on top of `research/research.css`.
+  - `video/rata-01-...html` through `rata-06-...html` are the first example topic: learning pottery wheel throwing.
+  - `video/veid-01-...html` through `veid-06-...html` are the second example topic: hand-building techniques (pinch, coil, slab, joining, finishing) without a wheel.
+  - `video/telpa-01-...html` through `telpa-06-...html` are the third example topic: setting up a room for a ceramics workshop (room selection, floor/surface protection, water/humidity, ventilation/dust, electrical/equipment layout, storage/organization).
+  - Each page splits the video into timed scenes with on-camera narration quotes and includes a time-check table validating the practical exercise averages ~60 minutes per session.
 
 ## Technical Rules
 

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{Video apraksts vienā teikumā: ko skatītājs iemācās.}">
+    <title>{Nr}. {Video nosaukums} | Video pamācības</title>
+    <link rel="stylesheet" href="../research/research.css">
+    <link rel="stylesheet" href="video.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="../index.html">EB Keramika piezīmes</a>
+      <nav class="top-nav" aria-label="Galvenā navigācija">
+        <a href="index.html">Video pamācības</a>
+        <a href="../index.html">Sākums</a>
+      </nav>
+    </header>
+
+    <main>
+      <article class="video-page">
+        <header class="article-header">
+          <p class="eyebrow">Video {Nr} no {N} · {Tēmas nosaukums}</p>
+          <h1>{Nr}. {Video nosaukums}</h1>
+          <p class="lead">{Viens teikums: ko skatītājs prot pēc video noskatīšanās un prakses.}</p>
+        </header>
+
+        <div class="video-meta">
+          <span>Video garums: ~{X} min</span>
+          <span>Prakses laiks: ~60 min</span>
+          <span>Līmenis: {Iesācējs / Turpina apgūt}</span>
+        </div>
+
+        <aside class="praktiska-piezime"><strong>Pirms sāc.</strong> {Nepieciešamais aprīkojums vai sagatavošanās pirms filmēšanas/prakses.}</aside>
+
+        <div class="bridinajums">
+          <strong>Drošības piezīme.</strong> {Drošības atgādinājums, kas attiecas tieši uz šo video darbību.}
+        </div>
+
+        <section>
+          <h2>Ainas (video scenārijs)</h2>
+          <ol class="scene-list">
+            <li class="scene-card">
+              <div class="scene-head">
+                <h3>1. aina: {Ainas nosaukums}</h3>
+                <span class="scene-time">{0:00–0:XX}</span>
+              </div>
+              <p class="scene-visual"><b>Attēls kadrā:</b> {ko rāda kadrā, kāds kameras rakurss}</p>
+              <p class="scene-quote">{Nepieciešamais teksts, ko pasniedzējs saka šajā ainā.}</p>
+            </li>
+            <li class="scene-card">
+              <div class="scene-head">
+                <h3>2. aina: {Ainas nosaukums}</h3>
+                <span class="scene-time">{0:XX–0:XX}</span>
+              </div>
+              <p class="scene-visual"><b>Attēls kadrā:</b> {...}</p>
+              <p class="scene-quote">{...}</p>
+            </li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>Laika pārbaude: vai uzdevums prasa ~60 min</h2>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th>Darba solis</th><th>Aptuvenais laiks</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>{Solis}</td><td>~{X} min</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="time-total">Kopā: ~60 min (vidēji vienai darbnīcas sesijai)</p>
+        </section>
+
+        <section>
+          <h2>Biežākās kļūdas (un kā tās labot)</h2>
+          <ul>
+            <li>{Kļūda un labojums}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Ko pierakstīt darbnīcas žurnālā</h2>
+          <ul>
+            <li>{Ko pierakstīt}</li>
+          </ul>
+        </section>
+      </article>
+
+      <nav class="article-nav" aria-label="Video secība">
+        <a href="index.html">Atpakaļ uz video sarakstu</a>
+        <a href="{iepriekšējais-fails}.html">Iepriekšējais: {nosaukums}</a>
+        <a href="{nākamais-fails}.html">Nākamais: {nosaukums}</a>
+      </nav>
+    </main>
+  </body>
+</html>

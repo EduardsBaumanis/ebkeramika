@@ -1,0 +1,109 @@
+/* Video guide section additions. Base layout comes from ../research/research.css. */
+.video-page {
+  width: min(100%, 54rem);
+  margin: 0 auto;
+}
+
+.video-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.video-meta span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.scene-list {
+  display: grid;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.scene-card {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: rgb(255 255 255 / 4%);
+}
+
+.scene-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.scene-head h3 {
+  margin: 0;
+}
+
+.scene-time {
+  color: var(--accent-strong);
+  font-weight: 700;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.scene-visual {
+  color: var(--muted);
+}
+
+.scene-quote {
+  margin: 0.75rem 0 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: rgb(215 155 99 / 8%);
+  font-style: italic;
+}
+
+.time-total {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: #fff8eb;
+}
+
+.video-topic-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.video-topic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: rgb(255 255 255 / 4%);
+}
+
+.video-topic-card .video-number {
+  color: var(--forest);
+  font-weight: 700;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+
+@media print {
+  .scene-card,
+  .video-topic-card {
+    border-color: #888;
+    background: #fff;
+  }
+
+  .scene-quote {
+    background: #fff;
+    border-left-color: #888;
+  }
+}
