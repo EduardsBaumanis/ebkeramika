@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Darbnīcas zonu sākotnējās plānošanas shēma</title>
+  <desc id="desc">Ilustratīvs telpas plāns ar darba, uzkopšanas un glabāšanas zonu, brīvu eju un atsevišķi izvērtējamu iespējamo krāsns vietu. Nav norādīts mērogs vai drošības attālumi; shēma nav uzstādīšanas projekts.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#586b45" stroke-width="1.5"/></marker>
+    <style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:650}.note{font-size:23px}.small{font-size:21px}.line{fill:none;stroke:#594434;stroke-width:4}</style>
+  </defs>
+  <rect width="1200" height="750" rx="18" fill="#f4ead8"/>
+  <text x="40" y="56" class="heading">Darbnīcas zonu sarunas plāns</text>
+  <text x="40" y="93" class="note">Shēma bez mēroga. Zonu novietojums ir sākotnēja ideja.</text>
+  <path d="M390 571 H60 V146 H810 V571 H490" fill="#fffaf0" stroke="#594434" stroke-width="4"/>
+  <rect x="90" y="178" width="357" height="117" rx="8" fill="#d79b63" stroke="#594434" stroke-width="2"/>
+  <text x="114" y="221" class="label">Darba zona</text>
+  <text x="114" y="259" class="small">Galds un parauga filmēšana</text>
+  <rect x="593" y="178" width="184" height="117" rx="8" fill="#e4e5d6" stroke="#594434" stroke-width="2"/>
+  <text x="614" y="222" class="label">Glabāšana</text>
+  <text x="614" y="258" class="small">Materiāli</text>
+  <rect x="90" y="414" width="228" height="119" rx="8" fill="#e4e5d6" stroke="#594434" stroke-width="2"/>
+  <text x="114" y="460" class="label">Uzkopšana</text>
+  <text x="114" y="497" class="small">Savākšanas trauki</text>
+  <rect x="582" y="404" width="196" height="129" rx="8" fill="#fffaf0" stroke="#9d603b" stroke-width="3" stroke-dasharray="10 7"/>
+  <text x="604" y="438" class="small">Iespējamā</text>
+  <text x="604" y="468" class="small">krāsns vieta</text>
+  <text x="604" y="509" class="label">Jāizvērtē</text>
+  <path d="M440 587 V365 H333" fill="none" stroke="#586b45" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="367" y="336" class="label">Brīva eja</text>
+  <text x="385" y="620" class="small">Ieeja</text>
+  <text x="850" y="185" class="label">Uz sava plāna:</text>
+  <text x="850" y="232" class="note">iezīmē durvis;</text>
+  <text x="850" y="273" class="note">atzīmē logus;</text>
+  <text x="850" y="314" class="note">izmēri mēbeles;</text>
+  <text x="850" y="355" class="note">pārbaudi kustību;</text>
+  <text x="850" y="396" class="note">fiksē neskaidrības.</text>
+  <text x="850" y="484" class="small">Šis nav krāsns</text>
+  <text x="850" y="516" class="small">uzstādīšanas projekts.</text>
+  <text x="40" y="667" class="note">Krāsns vietu, ventilāciju un elektrisko pieslēgumu izvērtē ar atbilstošu speciālistu.</text>
+  <text x="40" y="708" class="small">Ražotāja prasības un konkrētās telpas apstākļi nosaka risinājumu. Shēmā nav drošības attālumu.</text>
+</svg>

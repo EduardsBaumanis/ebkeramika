@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Centrēšanas novērojumu kadri</title>
+  <desc id="desc">Ilustratīva shēma ar skatu no augšas un sāniem. Nepārtraukta un punktota māla kontūra palīdz parādīt, ko salīdzināt starp viena kadra brīžiem. Nav attēlots roku paņēmiens vai kustības izmērs.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#586b45" stroke-width="1.5"/></marker>
+    <style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:34px;font-weight:700}.label{font-size:25px;font-weight:650}.note{font-size:23px}.small{font-size:20px}.line{fill:none;stroke:#594434;stroke-width:3}.ghost{fill:none;stroke:#9d603b;stroke-width:4;stroke-dasharray:10 8}</style>
+  </defs>
+  <rect width="1200" height="720" rx="18" fill="#f4ead8"/>
+  <text x="40" y="56" class="heading">Centrēšana: ko parādīt kadrā</text>
+  <text x="40" y="92" class="note">Shēma. Kontūru maiņu vēro no nemainīga rakursa.</text>
+  <rect x="32" y="126" width="552" height="462" rx="12" fill="#fffaf0" stroke="#cdbb9e" stroke-width="2"/>
+  <rect x="608" y="126" width="560" height="462" rx="12" fill="#fffaf0" stroke="#cdbb9e" stroke-width="2"/>
+  <text x="60" y="174" class="label">1. Skats no augšas</text>
+  <circle cx="291" cy="335" r="126" fill="#e4e5d6" stroke="#594434" stroke-width="3"/>
+  <circle cx="304" cy="335" r="62" fill="#d79b63" stroke="#594434" stroke-width="3"/>
+  <circle cx="278" cy="335" r="62" class="ghost"/>
+  <path d="M291 318 V352 M274 335 H308" class="line"/>
+  <path d="M444 249 L369 295" fill="none" stroke="#586b45" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="388" y="226" class="small">Kontūra</text>
+  <text x="76" y="510" class="note">Salīdzini māla malu ar rata centru.</text>
+  <text x="76" y="546" class="small">Kamera un rāmis paliek vienā vietā.</text>
+  <text x="636" y="174" class="label">2. Skats no sāniem</text>
+  <path d="M689 418 H1097 M730 438 H1055" class="line"/>
+  <path d="M770 416 Q778 361 790 308 Q802 252 880 252 Q958 252 970 308 Q982 361 990 416 Z" fill="#d79b63" stroke="#594434" stroke-width="3"/>
+  <path d="M744 416 Q752 361 764 308 Q776 252 854 252 Q932 252 944 308 Q956 361 964 416" class="ghost"/>
+  <path d="M1030 232 V424" fill="none" stroke="#586b45" stroke-width="3" stroke-dasharray="5 7"/>
+  <path d="M1020 320 H980" fill="none" stroke="#586b45" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="664" y="510" class="note">Vēro sānu kustību pret atskaiti.</text>
+  <text x="664" y="546" class="small">Atskaites līniju var pievienot montāžā.</text>
+  <path d="M42 635 H106" stroke="#9d603b" stroke-width="4" stroke-dasharray="10 8"/>
+  <text x="121" y="642" class="note">Punktotā līnija: iespējamā kontūra citā brīdī.</text>
+  <text x="40" y="683" class="small">Attēls nerāda kustības izmēru vai roku tehniku. Filmē savu paraugu un apraksti redzamo.</text>
+</svg>

@@ -1,99 +1,921 @@
 <!DOCTYPE html>
 <html lang="lv">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{Video apraksts vienā teikumā: ko skatītājs iemācās.}">
-    <title>{Nr}. {Video nosaukums} | Video pamācības</title>
-    <link rel="stylesheet" href="../research/research.css">
-    <link rel="stylesheet" href="video.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="site-title" href="../index.html">EB Keramika piezīmes</a>
-      <nav class="top-nav" aria-label="Galvenā navigācija">
-        <a href="index.html">Video pamācības</a>
-        <a href="../index.html">Sākums</a>
-      </nav>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Aizpildāma keramikas video stundas sagatave: mērķis, paraugi, ainas, runājamais teksts, laiki, drošība un darba lapa." name="description"/>
+  <title>
+   Jaunas video stundas sagatave | EB Keramika
+  </title>
+  <link href="../research/research.css" rel="stylesheet"/>
+  <link href="video.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#saturs">
+   Pāriet uz saturu
+  </a>
+  <header class="site-header">
+   <a class="site-title" href="../index.html">
+    <span aria-hidden="true" class="brand-mark">
+     EB
+    </span>
+    Keramika
+    <span class="brand-note">
+     Darbnīcas video piezīmes
+    </span>
+   </a>
+   <nav aria-label="Galvenā navigācija" class="top-nav">
+    <a aria-current="page" href="../video/index.html">
+     Stundas
+    </a>
+    <a href="../research/index.html">
+     Pētījumi
+    </a>
+    <a href="../tools/index.html">
+     Rīki
+    </a>
+    <a href="../uni/index.html">
+     Mācību ceļš
+    </a>
+    <a href="../academic-research/index.html">
+     Avoti
+    </a>
+   </nav>
+  </header>
+  <main id="saturs">
+   <article class="video-page">
+    <header class="article-header">
+     <p class="eyebrow">
+      Jaunas stundas sagatave
+     </p>
+     <h1>
+      {Stundas nosaukums}
+     </h1>
+     <p class="lead">
+      {Viena prasme un tas, ko skatītājs darīs pats.}
+     </p>
+     <p class="lesson-result">
+      <b>
+       Praktiskais rezultāts.
+      </b>
+      {Viens priekšmets, novērojums vai aizpildīts dokuments.}
+     </p>
     </header>
-
-    <main>
-      <article class="video-page">
-        <header class="article-header">
-          <p class="eyebrow">Video {Nr} no {N} · {Tēmas nosaukums}</p>
-          <h1>{Nr}. {Video nosaukums}</h1>
-          <p class="lead">{Viens teikums: ko skatītājs prot pēc video noskatīšanās un prakses.}</p>
-        </header>
-
-        <div class="video-meta">
-          <span>Video garums: ~{X} min</span>
-          <span>Prakses laiks: ~60 min</span>
-          <span>Līmenis: {Iesācējs / Turpina apgūt}</span>
-        </div>
-
-        <aside class="praktiska-piezime"><strong>Pirms sāc.</strong> {Nepieciešamais aprīkojums vai sagatavošanās pirms filmēšanas/prakses.}</aside>
-
-        <div class="bridinajums">
-          <strong>Drošības piezīme.</strong> {Drošības atgādinājums, kas attiecas tieši uz šo video darbību.}
-        </div>
-
-        <section>
-          <h2>Ainas (video scenārijs)</h2>
-          <ol class="scene-list">
-            <li class="scene-card">
-              <div class="scene-head">
-                <h3>1. aina: {Ainas nosaukums}</h3>
-                <span class="scene-time">{0:00–0:XX}</span>
-              </div>
-              <p class="scene-visual"><b>Attēls kadrā:</b> {ko rāda kadrā, kāds kameras rakurss}</p>
-              <p class="scene-quote">{Nepieciešamais teksts, ko pasniedzējs saka šajā ainā.}</p>
-            </li>
-            <li class="scene-card">
-              <div class="scene-head">
-                <h3>2. aina: {Ainas nosaukums}</h3>
-                <span class="scene-time">{0:XX–0:XX}</span>
-              </div>
-              <p class="scene-visual"><b>Attēls kadrā:</b> {...}</p>
-              <p class="scene-quote">{...}</p>
-            </li>
-          </ol>
-        </section>
-
-        <section>
-          <h2>Laika pārbaude: vai uzdevums prasa ~60 min</h2>
-          <div class="table-scroll">
-            <table>
-              <thead>
-                <tr><th>Darba solis</th><th>Aptuvenais laiks</th></tr>
-              </thead>
-              <tbody>
-                <tr><td>{Solis}</td><td>~{X} min</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="time-total">Kopā: ~60 min (vidēji vienai darbnīcas sesijai)</p>
-        </section>
-
-        <section>
-          <h2>Biežākās kļūdas (un kā tās labot)</h2>
-          <ul>
-            <li>{Kļūda un labojums}</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Ko pierakstīt darbnīcas žurnālā</h2>
-          <ul>
-            <li>{Ko pierakstīt}</li>
-          </ul>
-        </section>
-      </article>
-
-      <nav class="article-nav" aria-label="Video secība">
-        <a href="index.html">Atpakaļ uz video sarakstu</a>
-        <a href="{iepriekšējais-fails}.html">Iepriekšējais: {nosaukums}</a>
-        <a href="{nākamais-fails}.html">Nākamais: {nosaukums}</a>
-      </nav>
-    </main>
-  </body>
+    <aside class="praktiska-piezime">
+     <strong>
+      Kā lietot.
+     </strong>
+     Kopē šo HTML lapu jaunas tēmas failā esošajā video sadaļā. Aizstāj visus laukus figūriekavās, arī lapas nosaukumu un aprakstu, izņem šīs lietošanas norādes un pievieno īstas relatīvās saites. Gatavu piemēru skaties
+     <a href="rata-02-mala-centresana.html">
+      centrēšanas stundā
+     </a>
+     vai
+     <a href="telpa-01-telpas-izvele-un-planojums.html">
+      telpas plānojuma stundā
+     </a>
+     .
+    </aside>
+    <nav aria-label="Sagataves saturs" class="lesson-toc">
+     <a href="#sagatavosanas">
+      Sagatavošanās
+     </a>
+     <a href="#ainas">
+      Ainas
+     </a>
+     <a href="#prakse">
+      Prakse
+     </a>
+     <a href="#darba-lapa">
+      Darba lapa
+     </a>
+     <a href="#materiali">
+      Palīgmateriāli
+     </a>
+    </nav>
+    <section id="sagatavosanas">
+     <h2>
+      Pirms filmēšanas un prakses
+     </h2>
+     <p>
+      <b>
+       Priekšzināšanas.
+      </b>
+      {Iepriekš apgūtā prasme un saite uz tās stundu.}
+     </p>
+     <p>
+      <b>
+       Māla vai darba stadija.
+      </b>
+      {Faktiski sagatavojamais stāvoklis un tā novērojamās pazīmes.}
+     </p>
+     <p>
+      <b>
+       Rīki un materiāli.
+      </b>
+      {Nosaukums, vajadzīgais daudzums, loma un saite uz rīka ierakstu.}
+     </p>
+     <div class="table-scroll">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Parauga kods
+         </th>
+         <th scope="col">
+          Sākuma stāvoklis
+         </th>
+         <th scope="col">
+          Aina un turpmākā izmantošana
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          {A}
+         </th>
+         <td>
+          {Darba paraugs}
+         </td>
+         <td>
+          {Galvenā darbība}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          {B}
+         </th>
+         <td>
+          {Rezerves paraugs}
+         </td>
+         <td>
+          {Atkārtojums vai šķērsgriezums}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          {C}
+         </th>
+         <td>
+          {Agrāk sagatavots paraugs, ja vajadzīgs}
+         </td>
+         <td>
+          {Laika pārlēciens ar faktisko datumu}
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <h3>
+      Pirms ieraksta
+     </h3>
+     <ul>
+      <li>
+       {Kameras pozīcija un neaizsegtā darbības vieta.}
+      </li>
+      <li>
+       {Gaisma un salasāms marķējums.}
+      </li>
+      <li>
+       {Skaņas izmēģinājums.}
+      </li>
+      <li>
+       {Brīvs darba ceļš, paraugi un rīki gatavi.}
+      </li>
+     </ul>
+     <div class="bridinajums">
+      <h3>
+       Drošība šajā darbībā
+      </h3>
+      <p>
+       {Konkrētais risks, pamatots kontroles pasākums un tā avots, ja nepieciešams.}
+      </p>
+      <p>
+       <b>
+        Apstājies, ja:
+       </b>
+       {Redzamā pazīme un turpmākā drošā rīcība vai speciālista vajadzība.}
+      </p>
+     </div>
+    </section>
+    <section id="ainas">
+     <h2>
+      Ainas un runājamais teksts
+     </h2>
+     <p>
+      Septiņas ainu lomas ir sākuma paraugs. Apvieno vai sadali tās pēc faktiskās darbības. Laika intervāliem jābūt secīgiem, bet kustībai jāpaliek saprotamai.
+     </p>
+     <ol class="scene-list">
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         1. Rezultāta iecere
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a01
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         2. Sākuma apstākļi
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a02
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         3. Pirmā darbība
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a03
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         4. Galvenais demonstrējums
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a04
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         5. Pārbaude un salīdzinājums
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a05
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         6. Kļūdas pazīme un nākamā izmaiņa
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a06
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+      <li class="scene-card">
+       <div class="scene-head">
+        <h3>
+         7. Prakses uzdevums
+        </h3>
+        <span class="scene-time">
+         {sākums}-{beigas} · {ilgums} s
+        </span>
+       </div>
+       <p class="scene-id">
+        Ainas kods: {tēma}-{stunda}-a07
+       </p>
+       <dl class="scene-direction">
+        <dt>
+         Kadrējums
+        </dt>
+        <dd>
+         {Konkrētais rakurss un redzamā vieta.}
+        </dd>
+        <dt>
+         Darbība
+        </dt>
+        <dd>
+         {Secība, parauga kods un sākuma/beigu stāvoklis.}
+        </dd>
+       </dl>
+       <div class="scene-speech">
+        <p class="field-label">
+         Ieteicamais runājamais teksts
+        </p>
+        <blockquote class="scene-quote">
+         <p>
+          {Viens līdz trīs īsi autora teikumi, kas atbilst kadrā notiekošajam.}
+         </p>
+        </blockquote>
+       </div>
+       <dl class="scene-notes">
+        <dt>
+         Teksts ekrānā
+        </dt>
+        <dd>
+         {Īsa atslēgas frāze. Subtitriem saglabā pilno runu.}
+        </dd>
+        <dt>
+         Pārbaudes kadrs
+        </dt>
+        <dd>
+         {Novērojama pazīme, kas apliecina tieši šīs darbības rezultātu.}
+        </dd>
+        <dt>
+         Pauze un montāža
+        </dt>
+        <dd>
+         {Klusais demonstrējuma posms, parauga maiņa, laika pārlēciens vai nepārtraukts kadrs.}
+        </dd>
+       </dl>
+      </li>
+     </ol>
+    </section>
+    <section id="prakse">
+     <h2>
+      Laiks un prakse
+     </h2>
+     <p>
+      <b>
+       Video iecere:
+      </b>
+      {Ainu ilgumu summa.}
+     </p>
+     <p>
+      <b>
+       Filmēšanas sesija:
+      </b>
+      {Sagatavošana, dublējumi, skaņa un sakārtošana.}
+     </p>
+     <p>
+      <b>
+       Gaidīšana:
+      </b>
+      {Žūšana vai cita gaidīšana atsevišķi no aktīvā darba.}
+     </p>
+     <div class="table-scroll">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Darba posms
+         </th>
+         <th scope="col">
+          Plānotās minūtes
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          {Sagatavošanās}
+         </th>
+         <td>
+          {min}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          {Pamatuzdevums}
+         </th>
+         <td>
+          {min}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          {Rezultāta pārbaude}
+         </th>
+         <td>
+          {min}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          {Uzkopšana un žurnāls}
+         </th>
+         <td>
+          {min}
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          Kopā
+         </th>
+         <td>
+          {summa}
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <p>
+      <b>
+       Ja paliek laiks.
+      </b>
+      {Viens salīdzinājums vai atkārtojums.}
+     </p>
+     <p>
+      <b>
+       Ja jāpārtrauc.
+      </b>
+      {Saglabājamā darba stadija, marķējums un uzkopšana.}
+     </p>
+     <h3>
+      Kļūdas un labojumi
+     </h3>
+     <div class="table-scroll">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Pazīme
+         </th>
+         <th scope="col">
+          Iespējamais cēlonis
+         </th>
+         <th scope="col">
+          Viena nākamā darbība
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          {Redzamā problēma}
+         </th>
+         <td>
+          {Pārbaudāms pieņēmums}
+         </td>
+         <td>
+          {Konkrēta izmaiņa vai apstāšanās}
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </section>
+    <section class="worksheet" id="darba-lapa">
+     <p class="eyebrow">
+      Drukājama darba lapa
+     </p>
+     <h2>
+      {Stundas nosaukums}: pieraksti
+     </h2>
+     <p>
+      Datums: ____________________   Māls / darba kods: ____________________
+     </p>
+     <p>
+      <b>
+       Mērķis:
+      </b>
+      {Šīs stundas rezultāts.}
+     </p>
+     <p>
+      <b>
+       Drošība:
+      </b>
+      {Īsais atgādinājums, kas paliek arī atsevišķajā izdrukā.}
+     </p>
+     <div class="table-scroll">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Paraugs
+         </th>
+         <th scope="col">
+          Sākuma apstākļi
+         </th>
+         <th scope="col">
+          Novērojums
+         </th>
+         <th scope="col">
+          Nākamā pārbaude
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          A
+         </th>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          B
+         </th>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+        </tr>
+        <tr>
+         <th scope="row">
+          C
+         </th>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+         <td>
+          <span class="write-space">
+          </span>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+     <h3>
+      Ko pierakstīt darbnīcas žurnālā
+     </h3>
+     <ul>
+      <li>
+       {Tēmai būtiskais mērījums vai novērojums.}
+      </li>
+      <li>
+       {Parauga kods, materiāli un metode.}
+      </li>
+      <li>
+       {Faktiskais ilgums un pieredzes līmenis.}
+      </li>
+      <li>
+       {Foto, viena nākamā izmaiņa un atvērtie jautājumi.}
+      </li>
+     </ul>
+    </section>
+    <section id="materiali">
+     <h2>
+      Palīgmateriāli
+     </h2>
+     <p>
+      {Divi līdz četri konkrēti pētījumi, vajadzīgās shēmas, veidne vai etiķete ar relatīvām saitēm.}
+     </p>
+     <p>
+      {Pārbaudīts ārējais avots, attiecīgais apgalvojums, pārbaudes datums un lietojuma robeža.}
+     </p>
+    </section>
+    <section>
+     <h2>
+      Izmēģinājuma pieraksts
+     </h2>
+     <p>
+      {Redakcijas datums. Praktiskais izmēģinājums: nav veikts / faktiskie dati.}
+     </p>
+     <div class="table-scroll">
+      <table>
+       <thead>
+        <tr>
+         <th scope="col">
+          Aina / dublis
+         </th>
+         <th scope="col">
+          Izmantojamais fragments
+         </th>
+         <th scope="col">
+          Kas jāprecizē
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <th scope="row">
+          ________________
+         </th>
+         <td>
+          ________________
+         </td>
+         <td>
+          ________________
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </section>
+    <nav aria-label="Turpmākā darbība" class="article-nav">
+     <a href="index.html">
+      Atpakaļ uz stundu sarakstu
+     </a>
+     <a href="../research/index.html">
+      Atlasīt pētījumus
+     </a>
+     <a href="../tools/index.html">
+      Atlasīt rīkus
+     </a>
+    </nav>
+   </article>
+  </main>
+  <footer class="site-footer">
+   <p>
+    EB Keramika · Keramikas prasmes un darbnīcas labiekārtošana
+   </p>
+   <a href="../video/sagatave.html">
+    Jaunas stundas sagatave
+   </a>
+   <span>
+    Personīga darbnīcas prakse · Scenāriju redakcija 10.10.2026.
+   </span>
+  </footer>
+ </body>
 </html>

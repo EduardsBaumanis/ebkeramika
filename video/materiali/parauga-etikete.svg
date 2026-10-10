@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150mm" height="100mm" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Aizpildāma keramikas parauga etiķete</title>
+  <desc id="desc">Tukša drukājama etiķete ar laukiem parauga kodam, mālam, datumam, darba posmam un piezīmei. Etiķeti sasaista ar tā paša koda ierakstu darbnīcas žurnālā.</desc>
+  <defs><style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:49px;font-weight:700}.label{font-size:37px;font-weight:650}.note{font-size:30px}.line{fill:none;stroke:#594434;stroke-width:2}</style></defs>
+  <rect width="1200" height="800" fill="#fff"/>
+  <rect x="32" y="32" width="1136" height="736" rx="12" fill="none" stroke="#594434" stroke-width="2" stroke-dasharray="12 10"/>
+  <text x="82" y="119" class="heading">Parauga etiķete</text>
+  <text x="82" y="218" class="label">Kods</text>
+  <path d="M304 228 H1096" class="line"/>
+  <text x="82" y="313" class="label">Māls</text>
+  <path d="M304 323 H1096" class="line"/>
+  <text x="82" y="408" class="label">Datums</text>
+  <path d="M304 418 H1096" class="line"/>
+  <text x="82" y="503" class="label">Posms</text>
+  <path d="M304 513 H1096" class="line"/>
+  <text x="82" y="598" class="label">Piezīme</text>
+  <path d="M304 608 H1096" class="line"/>
+  <text x="82" y="713" class="note">To pašu kodu lieto darbnīcas žurnālā un kadra nosaukumā.</text>
+</svg>

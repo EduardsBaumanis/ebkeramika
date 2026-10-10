@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Trauka sienas un pamatnes šķērsgriezuma shēma</title>
+  <desc id="desc">Trauka šķērsgriezumā atzīmēta mala, siena, pamatne un sienas pāreja pamatnē. Ilustrācijā pamatne ir biezāka par sienu. Shēmai nav mēroga vai ieteiktu universālu izmēru.</desc>
+  <defs><style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:34px;font-weight:700}.label{font-size:26px;font-weight:650}.note{font-size:23px}.small{font-size:21px}.line{fill:none;stroke:#594434;stroke-width:3}</style></defs>
+  <rect width="1200" height="700" rx="18" fill="#f4ead8"/>
+  <text x="40" y="56" class="heading">Ko meklēt pārgrieztā paraugā</text>
+  <text x="40" y="93" class="note">Shēma. Biezumus izvērtē savam mālam, formai un darba posmam.</text>
+  <rect x="32" y="125" width="1136" height="430" rx="12" fill="#fffaf0" stroke="#cdbb9e" stroke-width="2"/>
+  <path d="M182 195 L160 420 Q158 482 225 482 H469 Q536 482 534 420 L512 195 H470 L486 397 Q488 423 461 423 H233 Q206 423 208 397 L224 195 Z" fill="#d79b63" stroke="#594434" stroke-width="4"/>
+  <path d="M215 218 L315 177 H634" class="line"/>
+  <circle cx="215" cy="218" r="5" fill="#586b45"/>
+  <text x="654" y="185" class="label">Mala</text>
+  <text x="654" y="219" class="small">Vai biezums pa perimetru mainās?</text>
+  <path d="M501 312 H634" class="line"/>
+  <circle cx="501" cy="312" r="5" fill="#586b45"/>
+  <text x="654" y="305" class="label">Siena</text>
+  <text x="654" y="339" class="small">Salīdzini augšdaļu, vidu un lejasdaļu.</text>
+  <path d="M477 429 L575 393 H634" class="line"/>
+  <circle cx="477" cy="429" r="5" fill="#586b45"/>
+  <text x="654" y="401" class="label">Pāreja pamatnē</text>
+  <text x="654" y="435" class="small">Parādi, kur mainās sienas biezums.</text>
+  <path d="M348 454 V515 H634" class="line"/>
+  <circle cx="348" cy="454" r="5" fill="#586b45"/>
+  <text x="654" y="510" class="label">Pamatne šajā shēmā ir biezāka.</text>
+  <text x="40" y="605" class="note">Fotografē griezumu blakus lineālam un pieraksti parauga kodu.</text>
+  <text x="40" y="644" class="small">Šeit nav ieteikta biezuma vai mēroga. Salīdzināšanai izmanto sava parauga mērījumus.</text>
+</svg>

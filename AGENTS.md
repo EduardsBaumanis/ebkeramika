@@ -4,14 +4,14 @@ Project-level guidance for AI agents working in this repository.
 
 ## Project Context
 
-- This repo is a Latvian personal pottery knowledge base and studio practice website for EB Keramika.
+- This repo is a Latvian personal pottery knowledge base and studio practice website for EB Keramika, centered on video lesson preparation and practical support materials.
 - The site supports a small pottery practice in Latvia: practical research, experiments, studio notes, tools, study planning, safety reminders, clay tests, glaze tests, firing notes, documentation systems, and workshop checklists.
 - This repo is not a shop. Never add cart, checkout, payment, ordering, customer account, product sales, stock, discount, delivery, e-commerce analytics, or sales funnel features.
 - Keep the site focused on making, testing, documenting, learning, and improving ceramic work.
 
 ## Current Site Structure
 
-- `index.html` is the Latvian landing page for the personal workshop notebook.
+- `index.html` leads to video lessons in ceramic skills and workshop improvement.
 - `research/` contains the main research library:
   - `research/index.html` lists 100 practical research articles in 10 categories.
   - `research/articles/001-...html` through `100-...html` are standalone article pages.
@@ -20,15 +20,19 @@ Project-level guidance for AI agents working in this repository.
   - `tools/index.html` lists pottery tools and small studio items with descriptions, examples, and internal article links.
   - `tools/checklist.html` is a printable priority checklist.
   - `tools/tools.css` contains tool-specific styling.
-- `uni/` contains a personal three-year ceramics study model inspired by university ceramics curricula. It is not an official programme and should not claim to be one.
+- `uni/` contains six personal learning stages linked to practical lessons and research. It is not an official programme and should not claim to be one.
+- `academic-research/` contains selected checked references and a separately labelled archive of older links. Do not describe the archive as newly verified without actually reviewing it.
 - `video/` contains a video-lesson planning system for short ceramics how-to videos, adapted from the lesson template in the [ebskola](https://github.com/EduardsBaumanis/ebskola) project:
-  - `video/index.html` explains the template and lists the example topic.
+  - `video/index.html` lists all 18 lessons in three cycles and the local visual support materials.
   - `video/sagatave.html` is the reusable blank template with `{placeholders}` for new video topics.
   - `video/video.css` contains scene-card, quote, and video-meta styling on top of `research/research.css`.
   - `video/rata-01-...html` through `rata-06-...html` are the first example topic: learning pottery wheel throwing.
   - `video/veid-01-...html` through `veid-06-...html` are the second example topic: hand-building techniques (pinch, coil, slab, joining, finishing) without a wheel.
   - `video/telpa-01-...html` through `telpa-06-...html` are the third example topic: setting up a room for a ceramics workshop (room selection, floor/surface protection, water/humidity, ventilation/dust, electrical/equipment layout, storage/organization).
-  - Each page splits the video into timed scenes with on-camera narration quotes and includes a time-check table validating the practical exercise averages ~60 minutes per session.
+  - Each lesson includes timed scenes with framing, action, original suggested narration, screen text, a visible result check, and editing notes. It also includes prerequisites, sample continuity, safety/stop conditions, a printable worksheet, and specific research/tool links.
+  - Scene durations and the 60-minute active practice plans are estimates, not measured trial results. Waiting, drying and filming time are separate. Keep the trial status honest until a real demonstration is documented.
+  - `video/materiali/` contains six local SVG diagrams and printable templates. Preserve physical dimensions and calibration marks on templates intended for printing at 100% scale.
+  - `video/video.js` adds optional local scene progress, narration copying and worksheet printing. `tools/checklist-storage.js` saves inventory marks locally. Do not add remote synchronization or a backend.
 
 ## Technical Rules
 
@@ -103,6 +107,8 @@ Project-level guidance for AI agents working in this repository.
 ## Validation
 
 After changes, run checks appropriate to the size of the change. For broad research edits, validate all 100 articles.
+
+Run `python3 check_site.py` for the dependency-free structural checks. After script changes, run `node --check` on each changed JavaScript file when Node is available. After layout changes, inspect narrow screens, print previews and content with JavaScript disabled. The structural checker does not verify technical claims or external source availability.
 
 Check for:
 

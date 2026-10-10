@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="160mm" viewBox="0 0 180 160" role="img" aria-labelledby="title desc">
+  <title id="title">80 reiz 80 milimetru plāksnes parauga veidne</title>
+  <desc id="desc">Drukājama kvadrāta veidne ar 80 milimetru malu un atsevišķu 50 milimetru kontrolmēru. Drukāt 100 procentu mērogā un pirms lietošanas kontrolmēru pārbaudīt ar lineālu. Izmērs ir šīs veidnes izvēle, nevis visiem darbiem noteikta prasība.</desc>
+  <defs><style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:5px;font-weight:700}.label{font-size:3.6px;font-weight:650}.note{font-size:3.3px}.small{font-size:3px}.line{fill:none;stroke:#241a15;stroke-width:.35}</style></defs>
+  <rect width="180" height="160" fill="#fff"/>
+  <text x="10" y="12" class="heading">Plāksnes parauga veidne</text>
+  <text x="10" y="20" class="note">Drukā 100% mērogā, bez pielāgošanas lapai.</text>
+  <text x="10" y="27" class="note">Pirms griešanas ar lineālu pārbaudi kontrolmēru.</text>
+  <rect x="15" y="39" width="80" height="80" class="line"/>
+  <text x="55" y="74" text-anchor="middle" class="heading">80 × 80 mm</text>
+  <text x="55" y="82" text-anchor="middle" class="note">Kvadrātveida testa paraugs</text>
+  <text x="55" y="89" text-anchor="middle" class="small">Kontūra ir griešanas līnija.</text>
+  <path d="M15 33 V36 M95 33 V36 M15 34.5 H95" class="line"/>
+  <text x="104" y="48" class="label">Pieraksti</text>
+  <text x="104" y="59" class="note">Parauga kods:</text>
+  <path d="M104 67 H169" class="line"/>
+  <text x="104" y="78" class="note">Māls:</text>
+  <path d="M104 86 H169" class="line"/>
+  <text x="104" y="97" class="note">Plāksnes biezums:</text>
+  <path d="M104 105 H169" class="line"/>
+  <text x="104" y="116" class="note">Datums:</text>
+  <path d="M104 124 H169" class="line"/>
+  <text x="15" y="133" class="label">Kontrolmērs: 50 mm</text>
+  <path d="M15 137 V143 M65 137 V143 M15 140 H65" class="line"/>
+  <text x="10" y="154" class="small">Šis ir izvēlēts testa formāts. Māla sarukumu mēra atsevišķi.</text>
+</svg>

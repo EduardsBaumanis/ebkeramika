@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+  <title id="title">Atsevišķi trauki māla skalošanas ūdenim un glazūru atliekām</title>
+  <desc id="desc">Shēma rāda divus atšķirīgi marķētus savākšanas traukus. Vienā savāc māla skalošanas ūdeni, otrā glazūru atliekas un skalošanas ūdeni. Nav attēlota santehnikas sistēma vai novadīšana kanalizācijā.</desc>
+  <defs><style>text{font-family:system-ui,sans-serif;fill:#241a15}.heading{font-size:34px;font-weight:700}.label{font-size:27px;font-weight:650}.note{font-size:23px}.small{font-size:21px}.line{fill:none;stroke:#594434;stroke-width:3}</style></defs>
+  <rect width="1200" height="740" rx="18" fill="#f4ead8"/>
+  <text x="40" y="56" class="heading">Marķē savākšanas traukus</text>
+  <text x="40" y="94" class="note">Shēma. Divas atsevišķas, pēc satura nosauktas plūsmas.</text>
+  <rect x="32" y="129" width="552" height="442" rx="12" fill="#fffaf0" stroke="#cdbb9e" stroke-width="2"/>
+  <rect x="608" y="129" width="560" height="442" rx="12" fill="#fffaf0" stroke="#cdbb9e" stroke-width="2"/>
+  <text x="308" y="179" text-anchor="middle" class="label">Māla skalošanas ūdens</text>
+  <text x="888" y="176" text-anchor="middle" class="label">Glazūru atliekas</text>
+  <text x="888" y="211" text-anchor="middle" class="label">un skalošanas ūdens</text>
+  <path d="M167 256 L187 506 Q189 522 210 522 H406 Q427 522 429 506 L449 256 Z" fill="#d79b63" stroke="#594434" stroke-width="3"/>
+  <rect x="155" y="242" width="306" height="28" rx="8" fill="#e4c5a1" stroke="#594434" stroke-width="3"/>
+  <path d="M171 301 C95 473 521 473 445 301" class="line"/>
+  <rect x="206" y="324" width="204" height="107" rx="6" fill="#fffaf0" stroke="#594434" stroke-width="2"/>
+  <text x="308" y="366" text-anchor="middle" class="label">MĀLS</text>
+  <text x="308" y="404" text-anchor="middle" class="small">Datums: ______</text>
+  <path d="M747 256 L767 506 Q769 522 790 522 H986 Q1007 522 1009 506 L1029 256 Z" fill="#b9c3aa" stroke="#594434" stroke-width="3"/>
+  <rect x="735" y="242" width="306" height="28" rx="8" fill="#d5dccb" stroke="#594434" stroke-width="3"/>
+  <path d="M751 301 C675 473 1101 473 1025 301" class="line"/>
+  <rect x="786" y="324" width="204" height="107" rx="6" fill="#fffaf0" stroke="#594434" stroke-width="2"/>
+  <text x="888" y="366" text-anchor="middle" class="label">GLAZŪRAS</text>
+  <text x="888" y="404" text-anchor="middle" class="small">Datums: ______</text>
+  <text x="40" y="619" class="note">Filmējumā skaidri parādi uzrakstu un to, kurā traukā savāc attiecīgās atliekas.</text>
+  <text x="40" y="660" class="small">Atlieku apsaimniekošanu pārbaudi pēc materiālu informācijas un vietējām prasībām.</text>
+  <text x="40" y="701" class="small">Šī nav santehnikas izbūves shēma. Trauku krāsa neaizstāj salasāmu satura marķējumu.</text>
+</svg>
